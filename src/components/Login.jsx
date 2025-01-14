@@ -1,4 +1,4 @@
-// import React from 'react'
+import 'react'
 import img from "/loginImg.jpg";
 
 const Login = () => {

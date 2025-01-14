@@ -1,6 +1,6 @@
-// import React from 'react'
+import 'react'
 import DepositHistory from '../components/DepositHistory'
-import Navbar from '../components/navbar'
+import Navbar from '../components/Navbar'
 
 const HomePage = () => {
   return (

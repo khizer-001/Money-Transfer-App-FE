@@ -1,4 +1,4 @@
-// import React from 'react'
+import 'react'
 import Table from "./Table";
 
 const DepositHistory = () => {

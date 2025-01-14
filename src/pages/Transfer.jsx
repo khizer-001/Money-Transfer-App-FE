@@ -1,4 +1,4 @@
-// import React from 'react'
+import 'react'
 
 import Navbar from "../components/navbar"
 import TransferForm from "../components/TransferForm"

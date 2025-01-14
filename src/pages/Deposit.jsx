@@ -1,4 +1,4 @@
-// import React from 'react'
+import 'react'
 
 import DepositForm from "../components/DepositForm"
 import Navbar from "../components/navbar"
