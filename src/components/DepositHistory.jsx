@@ -14,7 +14,7 @@ const DepositHistory = () => {
                 type="text"
                 id="disabledTextInput"
                 className="form-control w-25 col-md-6"
-                placeholder="12000$"
+                placeholder="12000"
               />
             </div>
             <hr />

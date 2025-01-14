@@ -16,19 +16,19 @@ const Table = ({date}) => {
             {/* <th scope="row"></th> */}
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
             <td>Deposit</td>
-            <td>120$</td>
+            <td>1200</td>
           </tr>
           <tr>
             {/* <th scope="row"></th> */}
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
             <td>Deposit</td>
-            <td>120$</td>
+            <td>1200</td>
           </tr>
           <tr>
             {/* <th scope="row"></th> */}
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
             <td>Deposit</td>
-            <td>120$</td>
+            <td>1200</td>
           </tr>
         </tbody>
       </table>

@@ -12,7 +12,7 @@ const TransferForm = () => {
               type="text"
               id="disabledTextInput"
               className="form-control w-25 col-md-6"
-              placeholder="12000$"
+              placeholder="12000"
             />
           </div>
           <div className=" ps-5 pe-5">
@@ -97,19 +97,19 @@ const TransferForm = () => {
                     <div className="card me-5 ms-5 mb-4 mt-2">
                       <div className="card-body d-flex justify-content-center">
                         <p>Total Amount Deposit</p>
-                        <h5 className=" ps-5 ms-5">30$</h5>
+                        <h5 className=" ps-5 ms-5">300</h5>
                       </div>
                     </div>
-                    <div className="modal-footer">
+                    <div className="modal-footer ">
                       <button
                         type="button"
-                        className="btn btn-secondary"
+                        className="btn btn-secondary w-25 align-items-start"
                         data-bs-dismiss="modal"
                       >
-                        Close
+                        Back
                       </button>
-                      <button type="button" className="btn btn-primary">
-                        Save changes
+                      <button type="button" className="btn btn-primary w-25 me-4">
+                        Ok
                       </button>
                     </div>
                   </div>
