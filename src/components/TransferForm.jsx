@@ -41,7 +41,7 @@ const TransferForm = () => {
                   placeholder="123 454 453"
                 />
               </div>
-              <label>Pay With:</label>
+              {/* <label>Pay With:</label>
               <div className="mb-4 mt-2 form-check">
                 <input
                   type="checkbox"
@@ -51,14 +51,14 @@ const TransferForm = () => {
                 <label className="form-check-label" htmlFor="exampleCheck1">
                   Paystag
                 </label>
-              </div>
+              </div> */}
               <button
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
-                className="btn btn-primary w-100 mb-4"
+                className="btn btn-primary w-100 mb-4 mt-3"
               >
-                Pay USD
+                Transfer
               </button>
             </form>
             <div>
