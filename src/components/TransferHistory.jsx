@@ -20,9 +20,8 @@ const TransferHistory = () => {
             <hr />
             <div className="row justify-content-center">
               <h3 className=" col-md-7">Transfer History</h3>
-              <a href=""
+              <a href="/deposit-history"
                 className="btn bg-danger bg-gradient col-md-2"
-                type="submit"
               >
                 Deposit History
               </a>

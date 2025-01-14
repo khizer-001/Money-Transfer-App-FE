@@ -22,7 +22,6 @@ const DepositHistory = () => {
               <h3 className=" col-md-7">Deposit History</h3>
               <a href="/transfer-history"
                 className="btn bg-danger bg-gradient col-md-2"
-                type="submit"
               >
                 Transfer History
               </a>
