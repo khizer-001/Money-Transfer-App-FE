@@ -16,11 +16,11 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/login" element={<LoginPage />} />
-          <Route exact path="/transfer-history" element={<TransferHistory />} />
-          <Route exact path="/deposit-history" element={<DepositHistory />} />
-          <Route exact path="/transfer" element={<Transfer />} />
-          <Route exact path="/deposit" element={<Deposit />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/transfer-history" element={<TransferHistory />} />
+          <Route path="/deposit-history" element={<DepositHistory />} />
+          <Route path="/transfer" element={<Transfer />} />
+          <Route path="/deposit" element={<Deposit />} />
         </Routes>
       </BrowserRouter>
     </>
