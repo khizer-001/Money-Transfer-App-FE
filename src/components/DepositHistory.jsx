@@ -1,10 +1,11 @@
 import 'react'
 import Table from "./Table";
+import './button.css'
 
 const DepositHistory = () => {
   return (
     <div>
-      <div className=" container mt-5 w-75">
+      <div className=" container mt-5 w-75 mb-5">
         <div className="card">
           <div className="card-body">
             <div className=" row justify-content-center">
@@ -21,7 +22,7 @@ const DepositHistory = () => {
             <div className="row justify-content-center">
               <h3 className=" col-md-7">Deposit History</h3>
               <a href="/transfer-history"
-                className="btn bg-danger bg-gradient col-md-2"
+                className="btn custom-gradient-btn col-md-2"
               >
                 Transfer History
               </a>

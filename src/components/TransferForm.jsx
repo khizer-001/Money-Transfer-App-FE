@@ -1,4 +1,5 @@
 import 'react'
+import './button.css'
 
 const TransferForm = () => {
   return (
@@ -6,7 +7,7 @@ const TransferForm = () => {
       <div className="card mt-5 col-5 pt-4">
         <div className="card-body">
           <div className=" row justify-content-center">
-            <p className="col-md-6">Current Balance</p>
+            <p className="col-md-6 fs-5 ps-0">Current Balance</p>
             <input
               disabled
               type="text"
@@ -16,7 +17,7 @@ const TransferForm = () => {
             />
           </div>
           <div className=" ps-5 pe-5">
-            <h5>Payment</h5>
+            <h5>Transfer</h5>
             <hr />
           </div>
           <div className=" ps-5 pe-5">
@@ -41,22 +42,11 @@ const TransferForm = () => {
                   placeholder="123 454 453"
                 />
               </div>
-              {/* <label>Pay With:</label>
-              <div className="mb-4 mt-2 form-check">
-                <input
-                  type="checkbox"
-                  className="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label className="form-check-label" htmlFor="exampleCheck1">
-                  Paystag
-                </label>
-              </div> */}
               <button
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
-                className="btn btn-primary w-100 mb-4 mt-3"
+                className="btn custom-gradient-btn w-100 mb-4 mt-3"
               >
                 Transfer
               </button>
@@ -71,22 +61,14 @@ const TransferForm = () => {
               >
                 <div className="modal-dialog modal-dialog-centered">
                   <div className="modal-content">
-                    <div className="modal-header">
-                      <h1
-                        className="modal-title fs-5 ms-4"
+                    <div className="modal-body ms-4 ps-4 me-4 pe-4">
+                    <h1
+                        className="modal-title fs-5 text-center mb-4 mt-3"
                         id="exampleModalLabel"
                       >
                         Transaction Successful
                       </h1>
-                      <button
-                        type="button"
-                        className="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div className="modal-body ms-4">
-                      <h5>Deposit Slip</h5>
+                      <h5>Transfer Slip</h5><hr />
                     </div>
                     <div className="card me-5 ms-5 mb-4 mt-2">
                       <div className="card-body d-flex justify-content-center">
@@ -100,15 +82,15 @@ const TransferForm = () => {
                         <h5 className=" ps-5 ms-5">300</h5>
                       </div>
                     </div>
-                    <div className="modal-footer ">
+                    <div className="modal-footer d-flex justify-content-center">
                       <button
                         type="button"
-                        className="btn btn-secondary w-25 align-items-start"
+                        className="btn custom-gradient-btn w-25"
                         data-bs-dismiss="modal"
                       >
                         Back
                       </button>
-                      <button type="button" className="btn btn-primary w-25 me-4">
+                      <button type="button" className="btn custom-gradient-btn w-25">
                         Ok
                       </button>
                     </div>

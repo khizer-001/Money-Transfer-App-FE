@@ -8,7 +8,7 @@ const Table = ({date}) => {
       <table className="table table-hover mt-5">
         <thead>
           <tr>
-            <th className="ps-5" scope="col">{date}</th>
+            <th colSpan="3" className="ps-5" scope="col">{date}</th>
           </tr>
         </thead>
         <tbody>
